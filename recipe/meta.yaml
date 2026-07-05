@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.3" %}
 
 package:
   name: peprs
@@ -6,15 +6,15 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/peprs/peprs-{{ version }}.tar.gz
-  sha256: 52cfb32c5b77d3cf8ad7061bed5fbb0818271924d57eb8b9e58f541baefabe9b
+  sha256: b61613fc9d41c5877a442569c2393b3ba6feacba389250100af1cacdc8938233
 
 build:
   entry_points:
     - peprs = peprs:_cli_main
-  script: 
+  script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   build:
