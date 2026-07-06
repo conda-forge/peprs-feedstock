@@ -26,10 +26,10 @@ requirements:
     - python
     - maturin >=1.9,<2.0
     - pip
-    - polars
-    - pyarrow
   run:
     - python
+    - polars
+    - pyarrow
 
 test:
   imports:
