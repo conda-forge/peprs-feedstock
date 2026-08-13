@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/p/peprs/peprs-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/p/peprs/peprs-{{ version }}.tar.gz
   sha256: 4eca72893301cf7b0967c2c5ed1707029bfcbb9d6613c4146028ecb61842224a
 
 build:
@@ -14,7 +14,7 @@ build:
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   build:
