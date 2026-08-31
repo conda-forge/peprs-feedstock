@@ -42,7 +42,7 @@ test:
     - python
 
 about:
-  home: https://github.com/khoroshevskyi/peprs/
+  home: https://github.com/pepkit/peprs/
   summary: Rust-powered PEP sample metadata toolkit for Python
   license: MIT
   license_file:
