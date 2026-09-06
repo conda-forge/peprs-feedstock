@@ -3,7 +3,7 @@ About peprs-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/peprs-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/khoroshevskyi/peprs/
+Home: https://github.com/pepkit/peprs/
 
 Package license: MIT
 
@@ -34,13 +34,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=28624&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/peprs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=28624&branchName=main">
